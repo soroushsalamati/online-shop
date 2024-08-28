@@ -17,4 +17,3 @@ def product_list(request):
         }
         my_product_list.append(product_dictionary)
     return JsonResponse(my_product_list, safe=False)
-
